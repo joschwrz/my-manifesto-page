@@ -10,7 +10,7 @@ const Artists = () => {
       </div>
       <Link
         to="/"
-        className="mt-16 text-xs tracking-[0.25em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-300"
+        className="mt-16 text-[10px] tracking-[0.25em] lowercase text-muted-foreground hover:text-foreground transition-colors duration-300"
       >
         back
       </Link>
