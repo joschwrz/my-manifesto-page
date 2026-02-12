@@ -12,7 +12,7 @@ const Index = () => {
         />
         <Link
           to="/artists"
-          className="text-xs tracking-[0.25em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-300"
+          className="text-[10px] tracking-[0.25em] lowercase text-muted-foreground hover:text-foreground transition-colors duration-300"
         >
           artists
         </Link>
