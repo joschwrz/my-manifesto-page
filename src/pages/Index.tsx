@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Index = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-background">
       <div className="flex flex-col items-center gap-16">
-        {/* Logo placeholder — replace src with your logo */}
         <img
-          src="/logo.png"
-          alt="Logo"
+          src={logo}
+          alt="Very Good Editions"
           className="max-h-32 w-auto object-contain"
         />
         <Link
